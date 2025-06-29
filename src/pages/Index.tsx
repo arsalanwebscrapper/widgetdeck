@@ -1,7 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { FileText, ExternalLink, Code, Database } from "lucide-react";
+import { FileText, ExternalLink, Code, Database, Eye } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Index = () => {
@@ -37,6 +37,25 @@ const Index = () => {
                 <Button className="w-full">
                   View Documentation
                   <ExternalLink className="w-4 h-4 ml-2" />
+                </Button>
+              </Link>
+            </CardContent>
+          </Card>
+
+          <Card className="hover:shadow-lg transition-shadow">
+            <CardHeader>
+              <CardTitle className="flex items-center gap-3">
+                <Eye className="w-6 h-6 text-purple-600" />
+                Page View Counter
+              </CardTitle>
+              <CardDescription>
+                Professional landing page for Firebase-based page view tracking widget
+              </CardDescription>
+            </CardHeader>
+            <CardContent>
+              <Link to="/lh-pageview-counter">
+                <Button variant="outline" className="w-full">
+                  View Landing Page
                 </Button>
               </Link>
             </CardContent>
