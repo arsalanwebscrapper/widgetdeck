@@ -13,11 +13,11 @@ const Index = () => {
             <Code className="w-10 h-10" />
           </div>
           <h1 className="text-5xl font-bold text-gray-900 mb-6">
-            Helpert UI Elements
+            WIDGETDECK
           </h1>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
-            Professional widget documentation and knowledge transfer system. 
-            Everything you need to understand, implement, and customize Helpert widgets.
+            Professional widget documentation and implementation system. 
+            Everything you need to understand, implement, and customize WIDGETDECK widgets.
           </p>
         </div>
 
@@ -29,7 +29,7 @@ const Index = () => {
                 Documentation
               </CardTitle>
               <CardDescription>
-                Complete knowledge transfer guide with code examples and setup instructions
+                Complete guide with code examples and setup instructions
               </CardDescription>
             </CardHeader>
             <CardContent>
@@ -87,7 +87,7 @@ const Index = () => {
               Ready to Get Started?
             </h2>
             <p className="text-gray-600 mb-6">
-              Access the complete knowledge transfer documentation with interactive code examples, 
+              Access the complete documentation with interactive code examples, 
               setup guides, and styling customization options.
             </p>
             <Link to="/helpert-widgets-kt">

@@ -64,7 +64,8 @@ const HelpertWidgetsKT = () => {
   position: fixed;
   top: 30px;
   right: 20px;
-}`
+}`,
+      pageRoute: '/lh-feedback-widget'
     },
     {
       id: 'poll-widget',
@@ -78,7 +79,8 @@ const HelpertWidgetsKT = () => {
   position: fixed;
   bottom: 20px;
   right: 20px;
-}`
+}`,
+      pageRoute: '/lh-poll-widget'
     },
     {
       id: 'active-users',
@@ -92,7 +94,8 @@ const HelpertWidgetsKT = () => {
   position: fixed;
   bottom: 10px;
   left: 20px;
-}`
+}`,
+      pageRoute: '/lh-active-users'
     },
     {
       id: 'pageview-badge',
@@ -106,7 +109,8 @@ const HelpertWidgetsKT = () => {
   position: fixed;
   top: 50px;
   right: 30px;
-}`
+}`,
+      pageRoute: '/lh-pageview-badge'
     },
     {
       id: 'pageview-bar',
@@ -121,7 +125,8 @@ const HelpertWidgetsKT = () => {
   bottom: 0;
   left: 0;
   right: 0;
-}`
+}`,
+      pageRoute: '/lh-pageview-bar'
     },
     {
       id: 'file-upload',
@@ -135,7 +140,8 @@ const HelpertWidgetsKT = () => {
   position: fixed;
   top: 30px;
   left: 30px;
-}`
+}`,
+      pageRoute: '/lh-file-upload'
     }
   ];
 
@@ -151,10 +157,10 @@ const HelpertWidgetsKT = () => {
             <FileText className="w-8 h-8" />
           </div>
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Helpert Widgets: Knowledge Transfer
+            WIDGETDECK
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Complete documentation for embedding and configuring Helpert widgets. 
+            Complete documentation for embedding and configuring WIDGETDECK widgets. 
             Clear instructions for beginners and advanced users alike.
           </p>
           <div className="flex justify-center gap-4 mt-6">
